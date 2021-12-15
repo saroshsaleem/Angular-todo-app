@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Car Rental App</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="container">
+      <p>
+		<label for="regNumber">Registration Number:</label>
+		<input id="regNumber" type="text"/>
+		<br><br>
+			
+		<label for="carMake">Car Make: </label>
+		<input id="carMake" type="text"/>
+		<br><br>
+			
+		<label for="carModel">Car Model: </label>
+		<input id="carModel" type="text"/>
+		<br><br>
+			
+		<label for="year">Year: </label> 
+		<input id="year" type="text"/>
+		<br><br>
+			
+		<label for="transType">Tranmission Type:</label>
+		<select id="transType">
+			<option value="auto">Auto</option>
+			<option value="manual">Manual</option>
+		</select>	
+		<br><br>
+			
+		<label for="bodyType">body Type:</label>
+		<select id="bodyType">
+			<option value="hatch">Hatch</option>
+			<option value="sedan">Sedan</option>
+			<option value="suv">SUV</option>
+			<option value="van">Van</option>
+			<option value="ute">Ute</option>
+		</select>	
+		<br><br>			
+			
+		<label for="odometer">Odometer: </label>
+		<input id="odometer" type="text"/>
+		<br><br>
+		
+		<label for="colour">Colour: </label>
+		<input id="colour" type="text"/>
+		<button>Add</button>
+      </p>
+      
+      <h3>Todo</h3>
+      <ul id="incomplete-tasks">
+        <li>
+		<label>1</label>
+		<input type="text">
+		<label>toyota</label>
+		<input type="text">
+		<label>camry</label>
+		<input type="text">
+		<label>2019</label>
+		<input type="text">
+		<label>Auto</label>
+		<input type="text">
+		<label>Hatch</label>
+		<input type="text">
+		<label>10000</label>
+		<input type="text">
+		<label>blue</label>
+		<input type="text">
+		<button class="edit">Edit</button>
+		<button class="delete">Delete</button>
+		</li>
+        <li class="editMode">
+		<label>Go Shopping</label>
+		<input type="text" value="Go Shopping">
+		<button class="edit">Edit</button>
+		<button class="delete">Delete</button></li>
+      </ul>
+    </div>
+	<script type= "text/javascript" src="src/javas.js"></script>
+  </body>
+</html>
